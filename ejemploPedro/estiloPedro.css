@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; box-sizing: border-box;} 
+img{max-width: 100%}
+.carousel-inner img{
+      width: 100%;
+      height: 100%;
+  }
+body{background: blue;}
+header{
+	background: #244E7D;
+
+}
+header span:not(:last-child)::after
+{
+	content: '|';
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+nav{background: #FFFFFF;}
+
+.carousel-caption{
+	position: absolute;
+	top:15%;
+    left:70%;
+    right: 5%;
+/*    z-index:2;
+    margin-bottom: 2em;
+    margin-top: 2em;*/
+}
+
+.btn{
+	background: none;
+    border-color: #F06586;
+    color: #F06586;
+}
+.btn:hover{
+	background: #F06586;
+	border-color: #F06586;
+}
+
+.mono1 {
+	border-top: solid #47ABEA 6px;
+    background: #FCFCFC;
+    background-image: url(imagenes/mono.png);
+    background-position: right; 
+    background-repeat: no-repeat; 
+
+}
+
+.mono {
+    border-top: solid #89BE16 6px;
+	background: #F8F8F8;
+    background-image: url(imagenes/mono.png);
+    background-position: right;
+    background-repeat: no-repeat; 
+}
+.mono:last-child{
+	 border-top: solid #F06586 6px;
+
+}
+
+.texto {
+	position:relative;
+    top:1em;
+    left:2em;
+    z-index:2;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.texto span{
+	margin-bottom: 1em;
+}
+
+.section3{
+
+}
