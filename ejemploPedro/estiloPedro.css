@@ -125,11 +125,10 @@ nav a:hover{
 }
 
 .section3 img{
-width: 100%;
-height: auto;
-
+	display: block;
 }
 
+<<<<<<< HEAD
 .texto-imagen{
 	background:rgb(66,148,186, 0.7);
 	transition: opacity 0.3s;
@@ -154,6 +153,17 @@ height: auto;
   	0% { opacity: 0; transform: scale(0.90); }
   	100% { opacity: 1; transform: scale(1.2); }
 }
+=======
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+>>>>>>> c1b901f4e98927abd6ac719f2cac8c8e46a73b33
 
 .section3 > div:nth-child(2) > div:nth-child(1):hover .texto-imagen,
 .section3 > div:nth-child(2) > div:nth-child(2):hover .texto-imagen,
