@@ -154,7 +154,7 @@ nav a:hover{
   	100% { opacity: 1; transform: scale(1); }
 }
 
-.row.no-gutters {
+/*.row.no-gutters {
    margin-right: 0;
    margin-left: 0;
 }
@@ -163,7 +163,7 @@ nav a:hover{
    padding-right: 0;
    padding-left: 0;
 }
-
+*/
 
 .section3 > div:nth-child(2) > div:nth-child(1):hover .texto-imagen,
 .section3 > div:nth-child(2) > div:nth-child(2):hover .texto-imagen,
@@ -188,5 +188,40 @@ nav a:hover{
 }
 .services > div{
 	padding-top: 2em;
-	
+	background-color:rgb(255,255,255,);
+}
+
+@keyframes services-animacion-izquierda {
+  	0% { margin-left: -50%; }
+  	100% {margin-left: 0; } 
+}
+
+
+.services >div:nth-child(1) >a,
+.services >div:nth-child(4) >a,
+.services >div:nth-child(7) >a{
+	animation-name: services-animacion-izquierda;
+	animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+/*estos son los elementos del medio*/
+/*.services >div:nth-child(2) >a,
+.services >div:nth-child(5) >a,
+.services >div:nth-child(8) >a{
+	animation-name: services-animacion-derecha;
+	animation-duration: 2s;
+    animation-fill-mode: backwards;
+}*/
+.section4{
+	background:#254F7F;
+	padding: 2em;
+}
+
+.section4 .col-sm-4{
+	background:white;
+}
+
+.section4 .row div:nth-child(3){
+	border-right:10px #254F7F solid;
+	border-left:10px #254F7F solid; 
 }
